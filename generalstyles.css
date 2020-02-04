@@ -11,6 +11,7 @@ html {
 
 body {
     display: grid;
+    grid-template-rows: 10vh 1fr 25vh;
     height: 100vh;
 }
 
@@ -21,15 +22,43 @@ body {
 
 .hdcontainer {
     background-color: aqua;
+    border: solid 1px black;
     display: grid;
-    grid-template-columns: 1fr 50px 2fr;
+    grid-template-columns: 100px 3fr 1fr;
 }
 
 .mncontainer {
 
     background-color: aquamarine;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 3fr 7fr 2fr;
+}
+
+.mnelements {
+    border: 1px solid white;
 }
 
 .ftcontainer {
+    border: solid 1px black;
+    display: grid;
+    grid-template-rows: 1fr 2fr .5fr;
+
+}
+
+.ftcolumncontainer {
     background-color: bisque;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.ftcolumn {
+    background-color: chartreuse;
+    border: 1px solid white;
+    min-height: 15vh;
+    margin: .5rem;
+    border-radius: .7rem;
+
 }

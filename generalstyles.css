@@ -1,0 +1,35 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: beige;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+}
+
+.bdcontainer {
+    height: 100%;
+
+}
+
+.hdcontainer {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 50px 2fr;
+}
+
+.mncontainer {
+
+    background-color: aquamarine;
+}
+
+.ftcontainer {
+    background-color: bisque;
+}
